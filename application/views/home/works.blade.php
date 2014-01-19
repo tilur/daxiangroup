@@ -2,6 +2,7 @@
         <div class="content">
             <h2>Our Works</h2>
             <p>We're proud of the work we've done. Take a look through some of our highlights, we think you'll be impressed.</p>
+            <p>We would love to see your website highlighted here, let's <a id="ding" href="#">talk</a>.</p>
         </div>
         <div class="highlights inset" data-stellar-background-ratio="0.75">
             <div class="hl inset bumblebees" data-stellar-ratio="1.2" data-stellar-horizontal-offset="-550">

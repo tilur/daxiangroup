@@ -288,4 +288,14 @@ var ContactWidget = {
 $(document).ready(function() {
     SiteWidget.init();
     ContactWidget.init();
+
+    $('#ding').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollLeft: $('#ctr-contact').offset().left
+        }, 500);
+        $('#con-name').focus();
+    });
 });
+
+
